@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-    <title>Pokemaniacs</title>
+    <link rel="stylesheet" href="register.css">
+    <title>Registro-Pokemaniakcs</title>
 </head>
 
 <body>
@@ -31,48 +32,64 @@
                 </ul> -->
                 <ul class="box-der">
                     <li><a href="./Register.html" class="btn-register">Crear cuenta</a></li>
-                    <!--<li><a href="#" class="btn-register"></a>-->
                     <li><a href="./Cesion.html" class="btn-register">Iniciar Cesion</a></li>
                 </ul>
             </div>
 
         </nav>
-
-
-        <div class="pixelify-sans-title">
-            <h1>Bienvenido a Pokemaniacs</h1>
-            <img class="principal" src="img/frontImgII.jpg" alt="pokemon-frontal">
-        </div>
+      
 
     </header>
+    <main>
+        <section class="form-wrapper">
+            <h2>Crear Cuenta</h2>
+            <br>
+            <form action="#" id="formRegister" method="GET" novalidate>
+                <div class="form-control">
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Ej: Maria" required name="firstname" id="firstname" >
+                </div>
+                <div class="error" id="error-firstname"></div>
+                <div class="form-control">
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Ej: Gonzalez"required name="lastname" id="lastname">
+                </div>
+                <div class="error" id="error-lastname"></div>
+                <div class="form-control">
+                    <label>Direccion</label>
+                    <input type="text" placeholder="Ej: Calle 133 n 48" required name="direccion" id="direccion">
+                </div>
+                <div class="error" id="error-direccion"></div>
 
-    <main class="oswald-text">
-        <h1>Algunos de nuestros productos</h1>
-        <ul>
-            <li>
-                <figure><img class="Productos" src="./img/Productos/Cartas.jpg" alt="Cartas">
-                    <figcaption>
-                        <h2g>Consegui todas las cartas para tus mazos en nuestro local o hace tu pedido</h2>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure><img class="Productos" src="./img/Productos/Colchas.jpg" alt="Colchas">
-                    <figcaption>
-                        <h2>Todos tus juegos de sabanas los encontras aca</h2>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure><img class="Productos" src="./img/Productos/Peluches.webp" alt="Peluches">
-                    <figcaption>
-                        <h2>Atrapa el que mas te guste</h2>
-                    </figcaption>
-                </figure>
-            </li>
-        </ul>
+                <div class="form-control">
+                    <label>Email</label>
+                    <input type="email" placeholder="Ej: mimail@gmail.com"required name="email" id="email">
+                </div>
+                <div class="error" id="error-email"></div>
+                <div class="form-control">
+                    <label>Contraseña</label>
+                    <input type="password" required name="password" id="password">
+                </div>
+                <div class="error" id="error-password"></div>
+                    <div class="form-terms"> 
+                    <div class="terms">
+                        <input type="checkbox" id="terms">
+                        <label for="terms">Acepto términos y condiciones</label>
+                        <div class="error" id="error-terms"></div>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" id="btn-send">Registrarse</button>
+                <div class="form-help"> 
+                    <a href="#">Necesitas ayuda?</a>
+                </div>
+            </form>
+        </section>
+    </main>   
 
-    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/validation-register.js"></script>
+
     <Footer class="oswald-text">
         <div class="box2">
             <ul>
@@ -110,8 +127,8 @@
 
         </div>
     </Footer>
-   
 
 </body>
+
 
 </html>
