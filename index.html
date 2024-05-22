@@ -9,14 +9,14 @@
         type="/img/pikachu_icon-icons.com_67535.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Pokemaniacs</title>
 </head>
 
 <body>
-    <header>
-        <nav class="menu oswald-text">
-            <ul class="ul-style">
+    <header class="header">
+        <nav class="menu">
+            <ul class="ul-style oswald-text">
                 <li><img src="./img/Pokemaniaks logo.jpg" alt="Pokemainacs"></li>
                 <li><a href=#> Inicio</a></li>
                 <li><a href=#> Productos</a></li>
@@ -34,82 +34,105 @@
                     <li><button>Iniciar Cesion</button></li>
                 </ul>
             </div>
-
         </nav>
-
-
-        <div class="pixelify-sans-title">
-            <h1>Bienvenido a Pokemaniacs</h1>
-            <img class="principal" src="img/frontImgII.jpg" alt="pokemon-frontal">
-        </div>
-
     </header>
 
     <main class="oswald-text">
-        <h1>Algunos de nuestros productos</h1>
-        <ul>
-            <li>
-                <figure><img class="Productos" src="./img/Productos/Cartas.jpg" alt="Cartas">
-                    <figcaption>
-                        <h2g>Consegui todas las cartas para tus mazos en nuestro local o hace tu pedido</h2>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure><img class="Productos" src="./img/Productos/Colchas.jpg" alt="Colchas">
-                    <figcaption>
-                        <h2>Todos tus juegos de sabanas los encontras aca</h2>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure><img class="Productos" src="./img/Productos/Peluches.webp" alt="Peluches">
-                    <figcaption>
-                        <h2>Atrapa el que mas te guste</h2>
-                    </figcaption>
-                </figure>
-            </li>
-        </ul>
+        <section id="pokeBanner" class="d-flex">
+            <div class="container">
+                <h1 class="animated-title">Bienvenido a Pokemaniacs</h1>
+                <h3>El paraíso para los amantes de Pokémon</h2>
+            </div>
+        </section>
+        <section id="buscar-producto">
+            <h2 class="poke-title">Busca tu Pokemon preferido</h2>
+            <input type="text" class="input-search" placeholder="Buscar...">
 
+        </section>
+        <section id="tendencias">
+            <h1>Productos tendencias</h1>
+            <div class="grid-container">
+                <div class="grid-item"><img src="../proyectoPokemon/img/Productos/Producto1.jpg" alt="Producto 1"></div>
+                <div class="grid-item"><img src="../proyectoPokemon/img/Productos/Producto2.jpg" alt="Producto 2"></div>
+                <div class="grid-item"><img src="../proyectoPokemon/img/Productos/Producto3.jpg" alt="Producto 3"></div>
+            </div>
+        </section>
+        <section id="nuestros-productos">
+            <h1>Algunos de nuestros productos</h1>
+            <div class="products-grid">
+                <div class="product-item">
+                    <figure>
+                        <img class="Productos" src="./img/Productos/Cartas.jpg" alt="Cartas">
+                        <figcaption>
+                            <h2>Conseguí todas las cartas para tus mazos en nuestro local o hace tu pedido</h2>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="product-item">
+                    <figure>
+                        <img class="Productos" src="./img/Productos/Colchas.jpg" alt="Colchas">
+                        <figcaption>
+                            <h2>Todos tus juegos de sábanas los encontrás acá</h2>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="product-item">
+                    <figure>
+                        <img class="Productos" src="./img/Productos/muñeco.jpg" alt="Peluches">
+                        <figcaption>
+                            <h2>Atrapa el que más te guste</h2>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
     </main>
     <Footer class="oswald-text">
         <div class="box2">
-            <ul>
-                <li>
-                    <h2>Formas de Envio</h2>
-                </li>
-                <li><img class="envios" src="./img/Envios/Logo oca.jpg" alt="OCA"><img class="envios"
-                        src="./img/Envios/mercado-libre-logo.png" alt="Mercado Libre"><img class="envios"
-                        src="./img/Envios/logo-vector_correo-argentino.jpg" alt="Correo Argentino"></li>
-            </ul>
-            <ul>
-                <li>
-                    <h2>Medios de pagos</h2>
-                </li>
-                <li><img class="medios" src="./img/otrosMediosDePago.jpg" alt="Medios de pago"></li>
-            </ul>
-            <ul>
-                <h2>Contactanos</h2>
-                <li><a>11-5555-6666</a></li>
-                <li><a href="#">pokemaniac@outllok.com</a></li>
-                <li><a> Av. Corrientes 444-Buenos aires</a></li>
-                <li><iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210146.7595605398!2d-58.598110445119644!3d-34.61571293030001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1711999184490!5m2!1ses!2sar"
-                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe></li>
-            </ul>
-            <ul class="redes">
-                <h2>Seguinos en nuestras redes</h2>
-                <li><a href="#"><img src="./img/Logos/icons8-facebook-nuevo-48.png" alt="Facefook"></a></li>
-                <li><a href="#"><img src="./img/Logos/icons8-instagram-48.png" alt="Instagram"></a></li>
-                <li><a href="#"><img src="./img/Logos/icons8-twitter.gif" alt="Twitter"></a></li>
+            <div class="slider-container">
+                <h2>Formas de Envio</h2>
+                <ul class="slider">
+                    <li class="slider-cias">
+                        <img class="envios" src="./img/Envios/Logo oca.jpg" alt="OCA">
+                    </li>
+                    <li class="slider-cias">
+                        <img class="envios" src="./img/Envios/mercado-libre-logo.png" alt="Mercado Libre">
+                    </li>
+                    <li class="slider-cias">
+                        <img class="envios" src="./img/Envios/logo-vector_correo-argentino.jpg" alt="Correo Argentino">
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <ul>
+                    <li>
+                        <h2>Medios de pagos</h2>
+                    </li>
+                    <li><img class="medios" src="./img/otrosMediosDePago.jpg" alt="Medios de pago"></li>
+                </ul>
+                <ul class="footer-list">
+                    <h2>Contactanos</h2>
+                    <li><a>11-5555-6666</a></li>
+                    <li><a href="#">pokemaniac@outllok.com</a></li>
+                    <li><a> Av. Corrientes 444-Buenos aires</a></li>
+                    <li>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210146.7595605398!2d-58.598110445119644!3d-34.61571293030001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1711999184490!5m2!1ses!2sar"
+                            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </li>
+                </ul>
+                <ul class="footer-list redes">
+                    <h2>Seguinos en nuestras redes</h2>
+                    <li><a href="#"><img src="./img/Logos/icons8-facebook-nuevo-48.png" alt="Facefook"></a></li>
+                    <li><a href="#"><img src="./img/Logos/icons8-instagram-48.png" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="./img/Logos/icons8-twitter.gif" alt="Twitter"></a></li>
+                </ul>
 
-
-            </ul>
-
+            </div>
         </div>
     </Footer>
-
+    <script src="index.js"></script>
 </body>
 
 </html>
