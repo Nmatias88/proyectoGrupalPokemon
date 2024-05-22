@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/pikachu_icon-icons.com_67535.png"
+        type="/img/pikachu_icon-icons.com_67535.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="register.css">
+    <title>Registro-Pokemaniakcs</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu oswald-text">
+            <ul class="ul-style">
+                <li><img src="./img/Pokemaniaks logo.jpg" alt="Pokemainacs"></li>
+                <li><a href="./index.html"> Inicio</a></li>
+                <li><a href=#> Productos</a></li>
+                <li><a href=#> Nosotros</a></li>
+                <li><a href=#> Preguntas Frecuentes</a></li>
+                <li><a href=#> Contacto</a></li>
+            </ul>
+            <div class="box">
+                <!-- <ul>
+                    <li><a>11-5555-6666</a></li>
+                    <li><a href=#>pokemaniac@outllok.com</a></li>
+                </ul> -->
+                <ul class="box-der">
+                    <li><a href="./Register.html" class="btn-register">Crear cuenta</a></li>
+                    <li><a href="./Cesion.html" class="btn-register">Iniciar Cesion</a></li>
+                </ul>
+            </div>
+
+        </nav>
+      
+
+    </header>
+    <main>
+        <section class="form-wrapper">
+            <h2>Crear Cuenta</h2>
+            <br>
+            <form action="#" id="formRegister" method="GET" novalidate>
+                <div class="form-control">
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Ej: Maria" required name="firstname" id="firstname" >
+                </div>
+                <div class="error" id="error-firstname"></div>
+                <div class="form-control">
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Ej: Gonzalez"required name="lastname" id="lastname">
+                </div>
+                <div class="error" id="error-lastname"></div>
+                <div class="form-control">
+                    <label>Direccion</label>
+                    <input type="text" placeholder="Ej: Calle 133 n 48" required name="direccion" id="direccion">
+                </div>
+                <div class="error" id="error-direccion"></div>
+
+                <div class="form-control">
+                    <label>Email</label>
+                    <input type="email" placeholder="Ej: mimail@gmail.com"required name="email" id="email">
+                </div>
+                <div class="error" id="error-email"></div>
+                <div class="form-control">
+                    <label>Contraseña</label>
+                    <input type="password" required name="password" id="password">
+                </div>
+                <div class="error" id="error-password"></div>
+                    <div class="form-terms"> 
+                    <div class="terms">
+                        <input type="checkbox" id="terms">
+                        <label for="terms">Acepto términos y condiciones</label>
+                        <div class="error" id="error-terms"></div>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" id="btn-send">Registrarse</button>
+                <div class="form-help"> 
+                    <a href="#">Necesitas ayuda?</a>
+                </div>
+            </form>
+        </section>
+    </main>   
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/validation-register.js"></script>
+
+    <Footer class="oswald-text">
+        <div class="box2">
+            <ul>
+                <li>
+                    <h2>Formas de Envio</h2>
+                </li>
+                <li><img class="envios" src="./img/Envios/Logo oca.jpg" alt="OCA"><img class="envios"
+                        src="./img/Envios/mercado-libre-logo.png" alt="Mercado Libre"><img class="envios"
+                        src="./img/Envios/logo-vector_correo-argentino.jpg" alt="Correo Argentino"></li>
+            </ul>
+            <ul>
+                <li>
+                    <h2>Medios de pagos</h2>
+                </li>
+                <li><img class="medios" src="./img/otrosMediosDePago.jpg" alt="Medios de pago"></li>
+            </ul>
+            <ul>
+                <h2>Contactanos</h2>
+                <li><a>11-5555-6666</a></li>
+                <li><a href="#">pokemaniac@outllok.com</a></li>
+                <li><a> Av. Corrientes 444-Buenos aires</a></li>
+                <li><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210146.7595605398!2d-58.598110445119644!3d-34.61571293030001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1711999184490!5m2!1ses!2sar"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+            </ul>
+            <ul class="redes">
+                <h2>Seguinos en nuestras redes</h2>
+                <li><a href="#"><img src="./img/Logos/icons8-facebook-nuevo-48.png" alt="Facefook"></a></li>
+                <li><a href="#"><img src="./img/Logos/icons8-instagram-48.png" alt="Instagram"></a></li>
+                <li><a href="#"><img src="./img/Logos/icons8-twitter.gif" alt="Twitter"></a></li>
+
+
+            </ul>
+
+        </div>
+    </Footer>
+
+</body>
+
+
+</html>

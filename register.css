@@ -1,0 +1,50 @@
+/*.form-wrapper{
+    position: absolute;
+    Left:20%;
+    
+
+}*/
+section
+{
+    /*background-color:beige;*/
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 450px;
+    align-content: center;
+    
+}
+section h2{
+    text-align: center;
+}
+
+.form-control{
+    height: 40px;
+}
+
+.form-control label {
+    display: inline-block;
+    width: 90px;
+}
+.form-control input{
+    display: inline-block;
+    width: 80%;
+}
+
+.error{
+    color:red;
+}
+/*
+.form-control{
+    height: 70px;
+    
+}*/
+
+form button{
+    /*background-color: var(--primary-color) ;*/
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+    color: rgb(24, 23, 23);
+    cursor: pointer;
+}
+
