@@ -9,13 +9,13 @@
         type="/img/pikachu_icon-icons.com_67535.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Pokemaniacs</title>
 </head>
 
 <body>
-    <header class="">
-        <nav class="menu header">
+    <header class="header">
+        <nav class="menu">
             <ul class="ul-style oswald-text">
                 <li><img src="./img/Pokemaniaks logo.jpg" alt="Pokemainacs"></li>
                 <li><a href=#> Inicio</a></li>
@@ -36,15 +36,13 @@
             </div>
 
         </nav>
-
-
-
     </header>
 
     <main class="oswald-text">
-        <section id="pokeBanner">
-            <div class="pixelify-sans-title">
-                <h1>Bienvenido a Pokemaniacs</h1>
+        <section id="pokeBanner" class="d-flex">
+            <div class="container">
+                <h1 class="animated-title">Bienvenido a Pokemaniacs</h1>
+                <h3>El paraíso para los amantes de Pokémon</h2>
             </div>
         </section>
         <section id="buscar-producto">
@@ -54,32 +52,40 @@
         </section>
         <section id="tendencias">
             <h1>Productos tendencias</h1>
+            <div class="grid-container">
+                <div class="grid-item"><img src="../proyectoPokemon/img/Productos/Producto1.jpg" alt="Producto 1"></div>
+                <div class="grid-item"><img src="../proyectoPokemon/img/Productos/Producto2.jpg" alt="Producto 2"></div>
+                <div class="grid-item"><img src="../proyectoPokemon/img/Productos/Producto3.jpg" alt="Producto 3"></div>
+            </div>
         </section>
         <section id="nuestros-productos">
             <h1>Algunos de nuestros productos</h1>
-            <ul>
-                <li>
-                    <figure><img class="Productos" src="./img/Productos/Cartas.jpg" alt="Cartas">
+            <div class="products-grid">
+                <div class="product-item">
+                    <figure>
+                        <img class="Productos" src="./img/Productos/Cartas.jpg" alt="Cartas">
                         <figcaption>
-                            <h2g>Consegui todas las cartas para tus mazos en nuestro local o hace tu pedido</h2>
+                            <h2>Conseguí todas las cartas para tus mazos en nuestro local o hace tu pedido</h2>
                         </figcaption>
                     </figure>
-                </li>
-                <li>
-                    <figure><img class="Productos" src="./img/Productos/Colchas.jpg" alt="Colchas">
+                </div>
+                <div class="product-item">
+                    <figure>
+                        <img class="Productos" src="./img/Productos/Colchas.jpg" alt="Colchas">
                         <figcaption>
-                            <h2>Todos tus juegos de sabanas los encontras aca</h2>
+                            <h2>Todos tus juegos de sábanas los encontrás acá</h2>
                         </figcaption>
                     </figure>
-                </li>
-                <li>
-                    <figure><img class="Productos" src="./img/Productos/Peluches.webp" alt="Peluches">
+                </div>
+                <div class="product-item">
+                    <figure>
+                        <img class="Productos" src="./img/Productos/muñeco.jpg" alt="Peluches">
                         <figcaption>
-                            <h2>Atrapa el que mas te guste</h2>
+                            <h2>Atrapa el que más te guste</h2>
                         </figcaption>
                     </figure>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
 
 
