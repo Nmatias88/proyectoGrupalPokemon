@@ -34,7 +34,7 @@ header h1 {
 }
 
 #pokeBanner {
-    background-image: url(../proyectoPokemon/img/pichachu.jpg);
+    background-image: url(./img/pichachu.jpg);
     background-size: cover;
     background-position: center;
     height: 37.5rem;
@@ -247,7 +247,7 @@ footer {
 }
 
 .footer-section {
-    flex: 1 1 15rem;
+    flex: 1 1 6rem;
     /* 15rem width */
     margin-right: 2.5rem;
     /* 40px to rem */
@@ -665,6 +665,16 @@ ul.redes li {
         height: 12.5rem;
         /* 200px to rem */
     }
+
+    .nosotros-section {
+        margin: 2rem;
+    }
+
+    .container h3 {
+        font-size: small;
+        text-align: center;
+    }
+}
 }
 
 /* Tablets (768px a 1023px) */
